@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CurioCity</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	
+	<script type="text/javascript">
+		function appear(){
+			document.getElementById("slidebar").classList.toggle('active');
+		}
+	</script>
+</head>
+
+
+<body>
+
+	<nav>
+		
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="HTML/Gallery.html">Gallery</a></li>
+		<li><a href="#">Articles</a></li>
+		<li><a href="HTML/services.html">Our Services</a></li>	
+		<li><a href="#">Contact Us</a></li>
+	</ul>
+</nav>
+
+<div id="slidebar">
+
+	<div class="tog" > <img src="images/clock.png" onclick="appear()" ></div>
+	<ul>
+		<li>Time Zones</li>
+		<li class="hour">Time Zones</li>
+		<li class="hourutc">Time Zones</li>
+
+	</ul>
+	
+</div>
+<script type="text/javascript" src="JS/DigClock.js"></script>
+<script type="text/javascript" src="JS/UTC.js"></script>
+</body>
+</html>
